@@ -142,8 +142,6 @@ in  upstream
   with numbers.version = "es-modules"
   with arrays.repo = "https://github.com/kl0tl/purescript-arrays.git"
   with arrays.version = "es-modules"
-  with react-basic-dom.repo = "https://github.com/kl0tl/purescript-react-basic-dom.git"
-  with react-basic-dom.version = "es-modules"
   with react-basic-classic.repo = "https://github.com/kl0tl/purescript-react-basic-classic.git"
   with react-basic-classic.version = "es-modules"
   with aff.repo = "https://github.com/kl0tl/purescript-aff.git"
@@ -209,6 +207,8 @@ in  upstream
 
   with react-basic.repo = "https://github.com/working-group-purescript-es/purescript-react-basic.git"
   with react-basic.version = "es-modules"
+  with react-basic-dom.repo = "https://github.com/working-group-purescript-es/purescript-react-basic-dom.git"
+  with react-basic-dom.version = "es-modules"
   with react-basic-hooks.repo = "https://github.com/working-group-purescript-es/purescript-react-basic-hooks.git"
   with react-basic-hooks.version = "es-modules"
   with react-basic-emotion.repo = "https://github.com/working-group-purescript-es/purescript-react-basic-emotion.git"
