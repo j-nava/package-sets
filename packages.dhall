@@ -166,8 +166,6 @@ in  upstream
   with js-date.version = "es-modules"
   with partial.repo = "https://github.com/kl0tl/purescript-partial.git"
   with partial.version = "es-modules"
-  with react-basic.repo = "https://github.com/kl0tl/purescript-react-basic.git"
-  with react-basic.version = "es-modules"
   with web-storage.repo = "https://github.com/kl0tl/purescript-web-storage.git"
   with web-storage.version = "es-modules"
   with web-file.repo = "https://github.com/kl0tl/purescript-web-file.git"
@@ -209,6 +207,8 @@ in  upstream
   with control.repo = "https://github.com/kl0tl/purescript-control.git"
   with control.version = "es-modules"
 
+  with react-basic.repo = "https://github.com/working-group-purescript-es/purescript-react-basic.git"
+  with react-basic.version = "es-modules"
   with react-basic-hooks.repo = "https://github.com/working-group-purescript-es/purescript-react-basic-hooks.git"
   with react-basic-hooks.version = "es-modules"
   with react-basic-emotion.repo = "https://github.com/working-group-purescript-es/purescript-react-basic-emotion.git"
