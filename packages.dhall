@@ -213,7 +213,7 @@ in  upstream
   with react-basic-hooks.version = "es-modules"
   with react-basic-emotion.repo = "https://github.com/working-group-purescript-es/purescript-react-basic-emotion.git"
   with react-basic-emotion.version = "es-modules"
-  with stringutils.repo = "https://github.com/working-group-purescript-es/purescript-strings.git"
+  with stringutils.repo = "https://github.com/working-group-purescript-es/purescript-stringutils.git"
   with stringutils.version = "es-modules"
   with untagged-union.repo = "https://github.com/working-group-purescript-es/purescript-untagged-union.git"
   with untagged-union.version = "es-modules"
