@@ -205,6 +205,8 @@ in  upstream
   with control.repo = "https://github.com/kl0tl/purescript-control.git"
   with control.version = "es-modules"
 
+  with literals.repo = "https://github.com/working-group-purescript-es/purescript-literals.git"
+  with literals.version = "es-modules"
   with react-basic.repo = "https://github.com/working-group-purescript-es/purescript-react-basic.git"
   with react-basic.version = "es-modules"
   with react-basic-dom.repo = "https://github.com/working-group-purescript-es/purescript-react-basic-dom.git"
