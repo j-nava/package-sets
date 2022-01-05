@@ -174,6 +174,8 @@ in  upstream
   with web-dom.version = "es-modules"
   with web-uievents.repo = "https://github.com/kl0tl/purescript-web-uievents.git"
   with web-uievents.version = "es-modules"
+  with web-touchevents.repo = "https://github.com/kl0tl/purescript-web-touchevents.git"
+  with web-touchevents.version = "es-modules"
   with unfoldable.repo = "https://github.com/kl0tl/purescript-unfoldable.git"
   with unfoldable.version = "es-modules"
   with unsafe-coerce.repo = "https://github.com/kl0tl/purescript-unsafe-coerce.git"
