@@ -227,7 +227,8 @@ in  upstream
   with untagged-union.version = "es-modules"
 
   with framer-motion.version = "es-modules"
-  
+  with halogen-hooks.repo = "https://github.com/working-group-purescript-es/purescript-halogen-hooks.git"
+  with halogen-hooks.version = "es-modules"
 
   with language-cst-parser =
     { dependencies =
