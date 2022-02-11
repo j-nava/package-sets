@@ -229,7 +229,9 @@ in  upstream
   with framer-motion.version = "es-modules"
   with halogen-hooks.repo = "https://github.com/working-group-purescript-es/purescript-halogen-hooks.git"
   with halogen-hooks.version = "es-modules"
-
+  with aff-promise.repo = "https://github.com/working-group-purescript-es/purescript-aff-promise.git"
+  with aff-promise.version = "es-modules"
+  
   with language-cst-parser =
     { dependencies =
       [ "arrays"
