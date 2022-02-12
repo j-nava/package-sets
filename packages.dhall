@@ -225,6 +225,8 @@ in  upstream
   with stringutils.version = "es-modules"
   with untagged-union.repo = "https://github.com/working-group-purescript-es/purescript-untagged-union.git"
   with untagged-union.version = "es-modules"
+  with spec.repo = "https://github.com/working-group-purescript-es/purescript-spec.git"
+  with spec.version = "es-modules"
 
   with framer-motion.version = "es-modules"
   with halogen-hooks.repo = "https://github.com/working-group-purescript-es/purescript-halogen-hooks.git"
