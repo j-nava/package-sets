@@ -253,7 +253,8 @@ in  upstream
 
   with node-process.repo = "https://github.com/working-group-purescript-es/purescript-node-process.git"
   with node-process.version = "9fab9d95ab3e52a4a923ef407cfc3166504d7f0c"
-
+  with node-readline.repo = "https://github.com/working-group-purescript-es/purescript-node-readline.git"
+  with node-readline.version = "a16942f33c9159fabcf542ad8ec81b74940c5047"
 
 
   with language-cst-parser =
