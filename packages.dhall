@@ -232,6 +232,18 @@ in  upstream
   with aff-promise.repo = "https://github.com/working-group-purescript-es/purescript-aff-promise.git"
   with aff-promise.version = "es-modules"
   
+  with node-buffer.repo = "https://github.com/working-group-purescript-es/purescript-node-buffer.git"
+  with node-buffer.version = "e45b2675235608238d6556ef221deaac546be505"
+  with node-fs.repo = "https://github.com/working-group-purescript-es/purescript-node-fs.git"
+  with node-fs.version = "2377f5b78641a16dc24e1245f8048fedc8216417"
+  with node-path.repo = "https://github.com/working-group-purescript-es/purescript-node-path.git"
+  with node-path.version = "fb8e9e78de9df739f7ff32d01c93ccd1e7f89a35"
+  with node-child-process.repo = "https://github.com/working-group-purescript-es/purescript-node-child-process.git"
+  with node-child-process.version = "e6676f380894fe38bc12a31bc3b7197678684780"
+  with node-streams.repo = "https://github.com/working-group-purescript-es/purescript-node-streams.git"
+  with node-streams.version = "bb765970e14ff12b8caf2f465e056105eb2dccd6"
+
+
   with language-cst-parser =
     { dependencies =
       [ "arrays"
