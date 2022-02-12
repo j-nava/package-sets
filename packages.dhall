@@ -227,6 +227,12 @@ in  upstream
   with untagged-union.version = "es-modules"
   with spec.repo = "https://github.com/working-group-purescript-es/purescript-spec.git"
   with spec.version = "es-modules"
+  
+  with elmish.repo = "https://github.com/working-group-purescript-es/purescript-elmish.git"
+  with elmish.version = "es-modules"
+  with elmish-enzyme.repo = "https://github.com/working-group-purescript-es/purescript-elmish-enzyme.git"
+  with elmish-enzyme.version = "es-modules"
+
 
   with framer-motion.version = "es-modules"
   with halogen-hooks.repo = "https://github.com/working-group-purescript-es/purescript-halogen-hooks.git"
