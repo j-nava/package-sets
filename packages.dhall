@@ -105,8 +105,7 @@ in  upstream
 -------------------------------
 -}
 let upstream =
-      https://github.com/purescript/package-sets/releases/download/psc-0.14.5-20211116/packages.dhall
-        sha256:7ba810597a275e43c83411d2ab0d4b3c54d0b551436f4b1632e9ff3eb62e327a
+      https://github.com/purescript/package-sets/releases/download/psc-0.14.5-20220203/packages.dhall sha256:f8905bf5d7ce9d886cf4ef1c5893ab55de0b30c82c2b4137f272d075000fbc50
 
 in  upstream
   with metadata.version = "v0.15.0"
@@ -250,12 +249,12 @@ in  upstream
   with node-child-process.version = "261c4e50e0ea3a8e8a41f145bb2253710f8aa59e"
   with node-streams.repo = "https://github.com/working-group-purescript-es/purescript-node-streams.git"
   with node-streams.version = "bb765970e14ff12b8caf2f465e056105eb2dccd6"
-
   with node-process.repo = "https://github.com/working-group-purescript-es/purescript-node-process.git"
   with node-process.version = "9fab9d95ab3e52a4a923ef407cfc3166504d7f0c"
   with node-readline.repo = "https://github.com/working-group-purescript-es/purescript-node-readline.git"
   with node-readline.version = "a16942f33c9159fabcf542ad8ec81b74940c5047"
-
+  with node-url.repo = "https://github.com/working-group-purescript-es/purescript-node-url.git"
+  with node-url.version = "46f047f8f02300dc3c7c1212821bb8f25e5dd3e9"
 
   with language-cst-parser =
     { dependencies =
