@@ -241,9 +241,13 @@ in  upstream
   with node-path.repo = "https://github.com/working-group-purescript-es/purescript-node-path.git"
   with node-path.version = "fb8e9e78de9df739f7ff32d01c93ccd1e7f89a35"
   with node-child-process.repo = "https://github.com/working-group-purescript-es/purescript-node-child-process.git"
-  with node-child-process.version = "e6676f380894fe38bc12a31bc3b7197678684780"
+  with node-child-process.version = "261c4e50e0ea3a8e8a41f145bb2253710f8aa59e"
   with node-streams.repo = "https://github.com/working-group-purescript-es/purescript-node-streams.git"
   with node-streams.version = "bb765970e14ff12b8caf2f465e056105eb2dccd6"
+
+  with node-process.repo = "https://github.com/working-group-purescript-es/purescript-node-process.git"
+  with node-process.version = "9fab9d95ab3e52a4a923ef407cfc3166504d7f0c"
+
 
 
   with language-cst-parser =
