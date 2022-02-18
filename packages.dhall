@@ -263,6 +263,9 @@ in  upstream
   
   with httpure.repo = "https://github.com/working-group-purescript-es/purescript-httpure.git"
   with httpure.version = "es-modules"
+  with milkis.repo = "https://github.com/working-group-purescript-es/purescript-milkis.git"
+  with milkis.version = "es-modules"
+  
   
   with language-cst-parser =
     { dependencies =
