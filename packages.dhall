@@ -256,6 +256,11 @@ in  upstream
   with node-url.repo = "https://github.com/working-group-purescript-es/purescript-node-url.git"
   with node-url.version = "46f047f8f02300dc3c7c1212821bb8f25e5dd3e9"
 
+  with node-net.repo = "https://github.com/working-group-purescript-es/purescript-node-net.git"
+  with node-net.version = "es-modules"
+  with node-http.repo = "https://github.com/working-group-purescript-es/purescript-node-http.git"
+  with node-http.version = "es-modules"
+  
   with language-cst-parser =
     { dependencies =
       [ "arrays"
