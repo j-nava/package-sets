@@ -279,6 +279,9 @@ in  upstream
   with quickcheck.version = "es-modules"
   with quickcheck.repo = "https://github.com/2jt/purescript-quickcheck.git"
 
+  with test-unit.version = "es-modules"
+  with test-unit.repo = "https://github.com/2jt/purescript-test-unit.git"
+
   with language-cst-parser =
     { dependencies =
       [ "arrays"
