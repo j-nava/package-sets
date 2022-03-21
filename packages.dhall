@@ -282,6 +282,9 @@ in  upstream
   with test-unit.version = "es-modules"
   with test-unit.repo = "https://github.com/2jt/purescript-test-unit.git"
 
+  with express.version = "es-modules"
+  with express.repo = "https://github.com/2jt/purescript-express.git"
+
   with language-cst-parser =
     { dependencies =
       [ "arrays"
