@@ -226,7 +226,7 @@ in  upstream
   with untagged-union.version = "es-modules"
   with spec.repo = "https://github.com/working-group-purescript-es/purescript-spec.git"
   with spec.version = "es-modules"
-  
+
   with elmish.repo = "https://github.com/working-group-purescript-es/purescript-elmish.git"
   with elmish.version = "es-modules"
   with elmish-enzyme.repo = "https://github.com/working-group-purescript-es/purescript-elmish-enzyme.git"
@@ -238,7 +238,7 @@ in  upstream
   with halogen-hooks.version = "es-modules"
   with aff-promise.repo = "https://github.com/working-group-purescript-es/purescript-aff-promise.git"
   with aff-promise.version = "es-modules"
-  
+
   with node-buffer.repo = "https://github.com/working-group-purescript-es/purescript-node-buffer.git"
   with node-buffer.version = "e45b2675235608238d6556ef221deaac546be505"
   with node-fs.repo = "https://github.com/working-group-purescript-es/purescript-node-fs.git"
@@ -269,6 +269,12 @@ in  upstream
   with `assert`.repo
        = "https://github.com/working-group-purescript-es/purescript-assert.git"
   with `assert`.version = "es-modules"
+
+  with js-timers.version = "es-modules"
+  with js-timers.repo = "https://github.com/2jt/purescript-js-timers.git"
+
+  with random.version = "es-modules"
+  with random.repo = "https://github.com/2jt/purescript-random.git"
 
   with language-cst-parser =
     { dependencies =
