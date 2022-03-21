@@ -276,6 +276,9 @@ in  upstream
   with random.version = "es-modules"
   with random.repo = "https://github.com/2jt/purescript-random.git"
 
+  with quickcheck.version = "es-modules"
+  with quickcheck.repo = "https://github.com/2jt/puresript-quickcheck.git"
+
   with language-cst-parser =
     { dependencies =
       [ "arrays"
