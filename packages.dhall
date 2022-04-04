@@ -206,7 +206,7 @@ in  upstream
   with control.repo = "https://github.com/kl0tl/purescript-control.git"
   with control.version = "es-modules"
 
-  with formatters.repo = "https://github.com/working-group-purescript-es/purescript-literals.git"
+  with formatters.repo = "https://github.com/working-group-purescript-es/purescript-formatters.git"
   with formatters.version = "es-modules"
   with literals.repo = "https://github.com/working-group-purescript-es/purescript-literals.git"
   with literals.version = "es-modules"
